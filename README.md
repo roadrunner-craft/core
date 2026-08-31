@@ -9,11 +9,11 @@ The Core library for roadrunner-related code.
 
 ## Building
 
-    cargo build
+    mise run build
 
 ## Testing
 
-    cargo test
+    mise run test
 
 ## Benching
 
