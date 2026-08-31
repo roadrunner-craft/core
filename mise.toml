@@ -3,3 +3,15 @@ lockfile = true
 
 [tools]
 rust = "1"
+
+[tasks.build]
+run = "cargo build"
+
+[tasks.test]
+run = "cargo test"
+
+[tasks.lint]
+run = "cargo clippy"
+
+[tasks.format]
+run = "cargo fmt"
