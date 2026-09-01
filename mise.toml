@@ -1,0 +1,17 @@
+[settings]
+lockfile = true
+
+[tools]
+rust = "1.98"
+
+[tasks.build]
+run = "cargo build"
+
+[tasks.test]
+run = "cargo test"
+
+[tasks.lint]
+run = "cargo clippy"
+
+[tasks.format]
+run = "cargo fmt"
